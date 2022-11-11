@@ -21,7 +21,7 @@ export const NoteContainer = (props) => {
 
   return (
     <div className='note-container'>
-        <h2>Recored</h2>
+        <h2> My Records</h2>
         <div className='note-container_notes custom-scroll'>
         {notes?.length>0?(
         notes.map((item)=> <Note key={item.id} note={item}
